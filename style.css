@@ -1,0 +1,25 @@
+body {
+
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: blue;
+    
+}
+.header ul {
+    list-style: none;
+    padding:0;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+.header ul li a {
+ color:white
+}
