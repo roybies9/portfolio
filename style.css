@@ -7,8 +7,9 @@ body {
 }
 
 .header{
-    background-color: blue;
-    
+    background-color: #c11010;
+    border-radius:10px;
+   
 }
 .header ul {
     list-style: none;
