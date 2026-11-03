@@ -19,8 +19,51 @@ body {
 .header ul li {
     display: inline-block;
     padding: 30px;
+    position: relative;
 }
 
 .header ul li a {
- color:white
+ color:white;
+}
+.header ul li:hover {
+    background-color: green;
+}
+
+.header .dropdown{
+    display:none;
+     background-color: green;
+
+}
+.header li:hover .dropdown{
+    display:block;
+    position: absolute;
+    top: 75px;
+    left: 0px;
+}
+.content{
+    margin-bottom: 100px;
+}
+
+.content .links{
+        display: inline-block;
+    width: 49%;
+}
+.content .rechts{
+        display: inline-block;
+    width: 49%;
+}
+
+.footer div{
+        display: inline-block;
+    width: 49%;
+}
+
+footer{
+     background-color: #c11010;
+}
+
+@media screen and (max-width: 1600px) {
+   .container{
+        width: 100%;
+    }
 }
