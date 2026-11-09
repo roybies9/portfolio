@@ -11,7 +11,7 @@ include('header.php');
                <p>hjjherg jegj hger jgerj hegrj hegrj hergj herg egrgy3uyg 3i </p>
             </div>
             <div class="rechts">
-                <img src="foto.jpg.jpeg"/>
+                <img src="foto2.jpg.jpeg"/>
             </div>
         </div>
 
