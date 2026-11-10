@@ -7,6 +7,9 @@
     <body>
         <div class="container">
             <div class="header"> 
+                <a href="index.php">
+    <img src="logo.jpg" class="logo" alt="RB Logo">
+</a>
                 <nav> 
                     <ul> 
                         <li>
@@ -18,7 +21,7 @@
                                 </ul>
                         </li>
                         <li>
-                            <a href="#">series</a>
+                            <a href="over.mij.php">over mij</a>
                         </li>
                     </ul>
                 </nav>

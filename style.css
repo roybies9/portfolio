@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --primary-color: #C11010;
+    --secondary-color: #192A40;
+}
+
 body {
 font-family:'inter';
+background-color: #f5f5f5
 }
 
 h1,h2,h3,h4{
@@ -17,9 +23,19 @@ h1,h2,h3,h4{
 }
 
 .header{
-    background-color: #c11010;
+    background-color: var(--primary-color);
     border-radius:10px;
    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
 }
 .header ul {
     list-style: none;
@@ -37,40 +53,68 @@ h1,h2,h3,h4{
  color:white;
 }
 .header ul li:hover {
-    background-color: green;
+    background-color: var(--secondary-color);
 }
 
 .header .dropdown{
     display:none;
-     background-color: green;
+    background-color: var(--secondary-color);
 
 }
+
 .header li:hover .dropdown{
     display:block;
     position: absolute;
     top: 75px;
     left: 0px;
 }
+
 .content{
     margin-bottom: 100px;
+     display: flex;
+    align-items: flex-start;
+    gap: 2%;
 }
 
-.content .links{
-        display: inline-block;
+   .content .links,
+.content .rechts,
+.content .links2,
+.content .rechts3{
     width: 49%;
+
     vertical-align:top;
 }
-.content .rechts{
-        display: inline-block;
-    width: 49%;
-     vertical-align:top;
+
+.content .links,
+.content .rechts {
+    background-color: #E9EEF4;
+    border: 2px solid var(--secondary-color);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+.content .rechts2 {
+    margin-left: auto;
+    width: auto;
+    flex-shrink: 0;
+
+}
+
 .content h1 {
 
     margin-top:0;
+
 }
 .content h2 {
     margin-top:0;
+}
+
+.rechts2 img{
+    height: 540px;
+    width:auto;
+    max-width: 100%;
+    margin-left: auto;
 }
 
 .footer div{
@@ -80,14 +124,15 @@ h1,h2,h3,h4{
 }
 
 footer{
-     background-color: #c11010;
-}
+     background-color: var(--primary-color);
 
 @media screen and (max-width: 1600px) {
    .container{
         width: 100%;
     }
-}
 
-// secondairy color= #192A40
-//achtergrond=F5F5F5
+
+
+
+
+

@@ -20,13 +20,13 @@ include('header.php');
                 
                 <button>klik hier</button>
             </div>
-            <div class="rechts">
-                <img src="foto.jpg.jpeg"/>
+            <div class="rechts2">
+                <img src="foto3.jpg.jpeg"/>
             </div>
         </div>
 
 <div class="content container">
-            <div class="links">
+            <div class="links2">
          <img src="foto.jpg.jpeg"/>
             </div>
             <div class="rechts">

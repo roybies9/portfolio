@@ -6,9 +6,9 @@ include('header.php');
         <div class="content container">
             <div class="links">
                 <h1>over mij</h1>
-               <p>hjjherg jegj hger jgerj hegrj hegrj hergj herg egrgy3uyg 3i </p>
+               <p>Ik ben Roy Biesheuvel</p>
             </div>
-            <div class="rechts">
+            <div class="rechts2">
                 <img src="foto2.jpg.jpeg"/>
             </div>
         </div>
