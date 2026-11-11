@@ -110,6 +110,63 @@ h1,h2,h3,h4{
     margin-top:0;
 }
 
+.intro-tekst,
+.intro-foto{
+width: 49%;
+}
+
+.coding-window{
+    background-color: #192A40;
+    border-radius: 12px;
+    min-height: 300px;
+}
+
+.coding-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    background-color: #111D2D;
+}
+
+.coding-body{
+    padding: 20px;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+
+
+.code-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: #FF5F57;
+}
+
+.yellow {
+    background-color: #FEBC2E;
+}
+
+.green {
+    background-color: #28C840;
+}
+
+.coding-php{
+    color: #F47B85;
+}
+
+.coding-name{
+     color: #A8E5B5;
+}
+
+.code-title {
+    margin-left: auto;
+    color: #FFFFFF;
+}
+
 .rechts2 img{
     height: 540px;
     width:auto;
@@ -130,9 +187,3 @@ footer{
    .container{
         width: 100%;
     }
-
-
-
-
-
-

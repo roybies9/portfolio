@@ -6,40 +6,54 @@
 include('header.php');
 
 ?>
-        
+<section class="intro content container" >
+    
+    <div class="intro-tekst">
+        <h1>Hoi, ik ben Roy.</h1>
 
-        <div class="content container">
-            <div class="links">
-                <h1>Roy Biesheuvel</h1>
-                <h2>Hobbys:</h2>
-                <ul>
-                    <li> <a href="https://nl.wikipedia.org/wiki/Basketbal"> basketbal</a> </li>
-                    <li> <a href="https://nl.wikipedia.org/wiki/Basketbal"> gamen </a></li>
-                    <li> <a href="https://en.wikipedia.org/wiki/Coach_(basketball)"> coachen </a></li>
-                </ul>
-                
-                <button>klik hier</button>
-            </div>
-            <div class="rechts2">
-                <img src="foto3.jpg.jpeg"/>
-            </div>
-        </div>
+        <h2>Webdeveloper in opleiding</h2>
 
-<div class="content container">
-            <div class="links2">
-         <img src="foto.jpg.jpeg"/>
+        <p>
+            Ik leer websites en applicaties ontwikkelen
+            met HTML, CSS en PHP.
+            Op mijn portfolio laat ik mijn projecten
+            en mijn ontwikkeling zien.
+        </p>
+    </div>
+
+    <div class="intro-foto">
+        <div class = "coding-window">
+            <div class = "coding-header">
+                <div class="code-dot red"></div>
+                <div class="code-dot yellow"></div>
+                <div class="code-dot green"></div>
+                <span class="code-title">portfolio.php</span>
+
             </div>
-            <div class="rechts">
-                 <h2>series:</h2>
-            <ol>
-                <li>Suits</li>
-                <li>Breaking bad</li>
-                <li>The Rookie</li>
-            </ol>
-      
-              
+            <div class = "coding-body">
+                <div><span class="coding-php">&lt;?php</span></div>
+                <div><span class="coding-name">$naam = "Roy";</span></div>
+                <div><span class="coding-php">$skills</span>
+                <span>  =</span>
+                 <span>[</span>
+                  <span class = "coding-name">"HTML"</span>
+                   <span>,</span>
+                    <span class= "coding-name">"CSS"</span>
+                     <span>,</span>
+                      <span class="coding-name">"PHP"</span>
+                       <span>]; </span>
+            
+                </div>
+                <div>?&gt;</div>
+
             </div>
-        </div>
+        </div> 
+    
+    </div>
+
+</section>    
+
+
       <?php
 include('footer.php');
 
