@@ -8,7 +8,7 @@
         <div class="container">
             <div class="header"> 
                 <a href="index.php">
-    <img src="logo.jpg" class="logo" alt="RB Logo">
+    <img src="logo.jpg" class="logo">
 </a>
                 <nav> 
                     <ul> 

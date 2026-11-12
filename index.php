@@ -45,13 +45,40 @@ include('header.php');
             
                 </div>
                 <div>?&gt;</div>
+</div>
+
+</section> 
+
+
+
+<section class="container projecten">
+    <h2>Mijn projecten</h2>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Mijn portfolio website.</h3>
+                <span class="project-status">In ontwikkeling</span>
+                <p>Het leren en onder de knie krijgen van de basis.</p>
+                
+               
+            </div>
+             
+            <div class="project-card">
+                <h3>basketbalstatistieken</h3>
+                 <span class="project-status-gepland">op de planning.</span>
+                <p>een website voor het bijhouden van statistieken en terugkijken van wedstrijden.</p>    
+            </div>
+        </div>
+
+    
+</section>
 
             </div>
         </div> 
     
     </div>
 
-</section>    
+   
 
 
       <?php
