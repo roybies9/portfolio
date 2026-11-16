@@ -20,8 +20,14 @@
                                     </li>
                                 </ul>
                         </li>
-                        <li>
+                        <li class="projecten">
                             <a href="over.mij.php">over mij</a>
+                                <ul class="dropdown">
+                                    <li>
+                                    <a href="Mijn.projecten.php">Mijn projecten</a>
+                                    </li>
+                                </ul> 
+                                
                         </li>
                     </ul>
                 </nav>

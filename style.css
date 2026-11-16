@@ -40,13 +40,25 @@ h1,h2,h3,h4{
 .header ul {
     list-style: none;
     padding:0;
+    margin:0;
 }
 
-.header ul li {
+ .header nav > ul > li {
     display: inline-block;
-    padding: 30px;
+    padding: 20px 30px;
     position: relative;
     font-family: 'montserrat';
+}
+
+.header .dropdown li {
+    display: block;
+    padding: 15px 25px;
+    white-space: nowrap;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
 }
 
 .header ul li a {
@@ -56,18 +68,20 @@ h1,h2,h3,h4{
     background-color: var(--secondary-color);
 }
 
-.header .dropdown{
-    display:none;
-    background-color: var(--secondary-color);
-
-}
-
-.header li:hover .dropdown{
-    display:block;
+.header .dropdown {
+    display: none;
     position: absolute;
-    top: 75px;
-    left: 0px;
+    top: 100%;
+    left: 0;
+    background-color: var(--secondary-color);
+    z-index: 10;
+    min-width: 160px;
 }
+
+.header li:hover > .dropdown {
+    display: block;
+}
+
 
 .content{
     margin-bottom: 100px;
@@ -79,28 +93,61 @@ h1,h2,h3,h4{
    .content .links,
 .content .rechts,
 .content .links2,
-.content .rechts3{
-    width: 49%;
-
+.content .rechts2,
+.content .rechts3,
+.content .links3{
+    width:49%;
     vertical-align:top;
 }
 
-.content .links,
-.content .rechts {
-    background-color: #E9EEF4;
-    border: 2px solid var(--secondary-color);
-    border-radius: 10px;
-    padding: 20px;
+.content .links {
+    background-color: #FFFFFF;
+    border: none;
+    border-left: 4px solid #C11010;
+    border-radius: 8px;
+    padding: 20px;    
     box-sizing: border-box;
 }
 
-.content .rechts2 {
-    margin-left: auto;
+.rechts2,
+.links3{
+    border-top:4px solid var(--primary-color);
+}
+
+.rechts img{
+    display:inline-block;
+    border-radius:12px;
+    height:400px;
+    width:auto;
+}
+
+.rechts{
+    margin-left:auto;
+    text-align:right;
+}
+
+
+.content .links2 {
     width: auto;
     flex-shrink: 0;
 
 }
 
+.links2 img{
+    height: 540px;
+    width:auto;
+    max-width: 100%;
+}
+
+.rechts2{
+
+    margin-left:auto;
+}
+
+.rechts3 img{
+    display:block;
+    margin-left:auto;
+}
 .content h1 {
 
     margin-top:0;
@@ -167,21 +214,13 @@ width: 49%;
     color: #FFFFFF;
 }
 
-.rechts2 img{
-    height: 540px;
-    width:auto;
-    max-width: 100%;
-    margin-left: auto;
-}
 
 .project-grid {
     display: flex;
     gap: 24px;
 }
 
-.projecten {
-    margin-top: 80px;
-}
+
 
 .project-card {
     background-color: #FFFFFF;
@@ -217,6 +256,15 @@ width: 49%;
     right: 15px;
 }
 
+.project-pagina{
+    border-radius: 12px;
+    background-color: white;
+    display:block;
+       border: 1px solid #e5e7eb;
+    border-left: 4px solid var(--primary-color);
+    
+}
+
 .footer div{
         display: inline-block;
     width: 49%;
@@ -225,8 +273,9 @@ width: 49%;
 
 footer{
      background-color: var(--primary-color);
-
+}
 @media screen and (max-width: 1600px) {
    .container{
         width: 100%;
     }
+}

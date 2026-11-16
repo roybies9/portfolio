@@ -15,7 +15,10 @@
                     <h4>
                         contact
                     </h4>
-                    <p>Ik ben roy</p>
+                    <ul>
+                        <li> <a href="mailto: roybasketball9@icloud.com">Email: roybasketball9@icloud.com</a></li>
+                        <li> <a href="https://github.com/Roybies9">Git: Roybies9</a></li>
+                    </ul>
                 </div>
             </div>
         </footer>

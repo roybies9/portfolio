@@ -14,7 +14,7 @@ include('header.php');
         <h2>Webdeveloper in opleiding</h2>
 
         <p>
-            Ik leer websites en applicaties ontwikkelen
+            Ik leer websites ontwikkelen
             met HTML, CSS en PHP.
             Op mijn portfolio laat ik mijn projecten
             en mijn ontwikkeling zien.
@@ -34,14 +34,14 @@ include('header.php');
                 <div><span class="coding-php">&lt;?php</span></div>
                 <div><span class="coding-name">$naam = "Roy";</span></div>
                 <div><span class="coding-php">$skills</span>
-                <span>  =</span>
-                 <span>[</span>
-                  <span class = "coding-name">"HTML"</span>
-                   <span>,</span>
+                    <span>  =</span>
+                    <span>[</span>
+                    <span class = "coding-name">"HTML"</span>
+                    <span>,</span>
                     <span class= "coding-name">"CSS"</span>
-                     <span>,</span>
-                      <span class="coding-name">"PHP"</span>
-                       <span>]; </span>
+                    <span>,</span>
+                    <span class="coding-name">"PHP"</span>
+                    <span>]; </span>
             
                 </div>
                 <div>?&gt;</div>
