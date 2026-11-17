@@ -14,12 +14,13 @@ include('header.php');
                 <img src="foto2.jpg.jpeg"/>
             </div>
         </div>
-            <div class="container">
+            <div class="content container">
     <div class="rechts3">
         <video controls>
             <source src="basketbal.mp4" type="video/mp4">
         </video>
     </div>
+</div>
 
         
 

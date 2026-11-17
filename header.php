@@ -13,15 +13,16 @@
                 <nav> 
                     <ul> 
                         <li>
-                            <a href="hobbies.php">hobby's</a>
+                            <a href="over.mij.php">over mij</a>
+                            
                                 <ul class="dropdown"> 
                                     <li>
-                                        <a href="basketbal.php">basketbal</a>
+                                        <a href="hobbies.php">hobby's</a>
                                     </li>
                                 </ul>
                         </li>
                         <li class="projecten">
-                            <a href="over.mij.php">over mij</a>
+                                <a href="Mijn.projecten.php">projecten</a>
                                 <ul class="dropdown">
                                     <li>
                                     <a href="Mijn.projecten.php">Mijn projecten</a>
