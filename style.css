@@ -30,6 +30,9 @@ h1,h2,h3,h4{
     align-items: center;
     justify-content: space-between;
     margin-bottom:20px;
+     position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -108,18 +111,145 @@ h1,h2,h3,h4{
     box-sizing: border-box;
 }
 
+.intro-tekst h1{
+    font-size: 48px;
+    margin-bottom:30px;
+}
+
+.intro-tekst h2 {
+    font-size: 24px;
+    color: var(--secondary-color);
+}
+
+.intro-tekst span{
+    color: var(--primary-color);
+}
+
+.intro-tekst p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #475569;
+}
+
+.projecten-knop {
+    background-color: #C11010;
+    color: white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+   
+    transition: transform 0.3s ease;
+}
+
+.projecten-knop:hover{
+    text-decoration: underline;
+    background-color:#900C0C;
+     transform:  translateY(-5px);
+}
+
+
+.over-mij-knop{
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 12px 24px;
+    display: inline-block;
+    background-color: white;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: transform 0.3s ease; 
+}
+
+.over-mij-knop:hover{
+    text-decoration: underline;
+    transform: translateY(-5px);
+}
+
+.intro-knoppen{
+        display: flex;
+    gap: 15px;
+   margin-top: 25px;
+     align-items: center;
+}
 .rechts2,
 .links3{
     border-top:4px solid var(--primary-color);
 }
 
 .rechts img{
-    display:inline-block;
+    display:block;
     border-radius:12px;
-    height:400px;
+    height:auto;
     width: 100%;
-    object-fit: none
 }
+.intro-foto {
+    position: relative;
+}
+
+.afbeelding2 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    top:60px;
+    right:-100px;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+.afbeelding2 h3 {
+    color: #C11010;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.afbeelding2 p {
+     color: #192A40;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.afbeelding3 {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    position:absolute;
+    top:180px;
+    right:550px;
+    border-radius: 12px;
+    border-left: 4px solid var(--primary-color);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6px;
+    padding: 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+.afbeelding3 p {
+     color: #192A40;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+
+.afbeelding3 h3 {
+    color: #C11010;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
 
 .rechts{
     margin-left:auto;
@@ -218,6 +348,8 @@ width: 49%;
 .project-grid {
     display: flex;
     gap: 24px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 
@@ -228,10 +360,13 @@ width: 49%;
     padding: 24px;
     flex: 1;
     position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover{
     transform:  translateY(-5px);
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.20);
 }
 
 .project-status {
@@ -254,6 +389,7 @@ width: 49%;
     position: absolute;
     top: 15px;
     right: 15px;
+    
 }
 
 .project-pagina{
@@ -262,9 +398,23 @@ width: 49%;
     display:block;
        border: 1px solid #e5e7eb;
     border-left: 4px solid var(--primary-color);
-    
+     padding: 25px;
+     margin-bottom: 30px;
+     position: relative;
 }
 
+
+
+.project-header {
+    display: flex;
+    gap: 15px;
+   align-items: center;
+   margin-top: 10px;
+}
+
+.project-header h1 {
+    margin: 0;
+}
 .footer div{
    flex:1;
 }

@@ -9,7 +9,7 @@ include('header.php');
 <section class="intro content container" >
     
     <div class="intro-tekst">
-        <h1>Hoi, ik ben Roy.</h1>
+        <h1>Hoi, ik ben <span>Roy</span></h1>
 
         <h2>Webdeveloper in opleiding</h2>
 
@@ -19,6 +19,11 @@ include('header.php');
             Op mijn portfolio laat ik mijn projecten
             en mijn ontwikkeling zien.
         </p>
+        <div class= "intro-knoppen">
+        <a href="Mijn.projecten.php" class="projecten-knop">Bekijk mijn projecten</a>
+
+        <a href="over.mij.php" class="over-mij-knop">lees meer over mij</a>
+        </div>
     </div>
 
     <div class="intro-foto">
@@ -45,6 +50,15 @@ include('header.php');
             
                 </div>
                 <div>?&gt;</div>
+                <div class="afbeelding2">
+                    <h3>HTML</h3>
+                    <p>de basis van websites</p>
+                </div>
+
+                 <div class="afbeelding3">
+                    <h3>PHP</h3>
+                    <p>dynamische websites</p>
+                </div>
 </div>
 
 </section> 
@@ -78,7 +92,7 @@ include('header.php');
     
     </div>
 
-   
+   <script src="script.js"></script>
 
 
       <?php
