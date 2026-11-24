@@ -25,15 +25,16 @@ include('header.php');
 <section class="intro content container" id="intro">
     
     <div class="intro-tekst">
-        <h1>Hoi, ik ben <span>Roy</span></h1>
+        <h2>Van interesse naar <span>ontwikkeling</span></h2>
 
-        <h2>Webdeveloper in opleiding</h2>
+        
 
         <p>
-            Ik leer websites ontwikkelen
-            met HTML, CSS en PHP.
-            Op mijn portfolio laat ik mijn projecten
-            en mijn ontwikkeling zien.
+          Mijn interesse in technologie heeft mij ertoe gebracht
+    om te leren programmeren. Momenteel ontwikkel ik mijn
+    vaardigheden in HTML, CSS en PHP. Door zelfstandig
+    projecten te bouwen, breng ik mijn kennis in de praktijk
+    en werk ik toe naar een carrière als webdeveloper.
         </p>
   
     
@@ -83,18 +84,36 @@ include('header.php');
 
         <div class="project-grid">
             <div class="project-card">
-                <h3>Mijn portfolio website.</h3>
+            <div class="project-image">
+                Portfolio website
+            </div>
+
+            <div class="project-info">
+                <h3>Mijn portfolio website</h3>
                 <span class="project-status">In ontwikkeling</span>
                 <p>Het leren en onder de knie krijgen van de basis.</p>
-                
-               
+                <div class="project-skills">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>PHP</span>
+                </div>
             </div>
-             
-            <div class="project-card">
-                <h3>basketbalstatistieken</h3>
-                 <span class="project-status-gepland">op de planning.</span>
-                <p>een website voor het bijhouden van statistieken en terugkijken van wedstrijden.</p>    
-            </div>
+        </div>
+
+        <div class="project-card">
+        <div class= "project-image">
+                Basketbalstatistieken
+        </div>
+            <div class="project-info">
+                <h3>Basketbalstatistieken</h3>
+           
+        
+            <span class="project-status-gepland">Op de planning</span>
+            <p>Een website voor het bijhouden van statistieken en terugkijken van wedstrijden.</p>
+            
+             </div>
+        </div>
+
         </div>
 
     
