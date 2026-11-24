@@ -5,7 +5,14 @@
         <title>Roy Biesheuvel</title>
     </head>
     <body>
-        <div class="container">
+        <?php
+           if (basename($_SERVER['PHP_SELF']) == "index.php") {
+            $headerClass = "hero-header";
+           } else {
+            $headerClass = "";
+           }
+        ?>
+        <div class="container sticky-header <?php echo $headerClass; ?>">
             <div class="header"> 
                 <a href="index.php">
     <img src="logo.jpg" class="logo">

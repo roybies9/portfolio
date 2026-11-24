@@ -7,9 +7,14 @@
     --secondary-color: #192A40;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body {
 font-family:'inter';
-background-color: #f5f5f5
+background-color: #f5f5f5;
+margin: 0;
 }
 
 h1,h2,h3,h4{
@@ -17,6 +22,42 @@ h1,h2,h3,h4{
   
 }
 
+.hero{
+    width:100%;
+    height: 100vh;
+    background-image: url("hero-banner.png.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+    align-items: center;
+}
+
+ .hero-content{
+    color:white;
+    margin-left:15%;
+    max-width:600px;
+ }
+
+ .hero h1{
+    font-size:64px;
+    margin-top:0;
+    margin-bottom:10px;
+ }
+
+ .hero h2{
+    font-size:28px;
+    margin-top:0;
+    margin-bottom:20px;
+ }
+
+ .hero p{
+    font-size:18px;
+    line-height:1.6;
+    margin-top:0;
+    margin-bottom:30px;
+    position: relative;
+ }
 
 .container{
     width: 1600px;
@@ -30,9 +71,51 @@ h1,h2,h3,h4{
     align-items: center;
     justify-content: space-between;
     margin-bottom:20px;
-     position: sticky;
+}
+.sticky-header{
+ position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.hero-header{
+position: fixed;
+top:0;
+left:0;
+right:0;
+}
+
+.hero-header .header{
+    border-radius:0px;
+    background-color: transparent;
+    margin:0;
+}
+
+.scroll-arrow {
+    position: absolute;
+    bottom: 30px;
+    left:50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    color:white;
+    font-size:50px;
+    animation: bounce 2s infinite;
+}
+
+.scroll-arrow:hover{
+    animation-play-state: paused;
+}
+
+@keyframes bounce{
+    0% {
+        transform: translateX(-50%) translateY(0);
+    }
+    50% {
+         transform: translateX(-50%) translateY(8px);
+    }
+    100% {
+         transform: translateX(-50%) translateY(0);
+    }
 }
 
 .logo {
@@ -151,12 +234,12 @@ h1,h2,h3,h4{
 
 
 .over-mij-knop{
-    border: 2px solid var(--primary-color);
+    border: 2px solid white;
     border-radius: 8px;
     padding: 12px 24px;
     display: inline-block;
-    background-color: white;
-    color: var(--primary-color);
+    background-color: transparent;
+    color: white;
     text-decoration: none;
     transition: transform 0.3s ease; 
 }
@@ -164,6 +247,8 @@ h1,h2,h3,h4{
 .over-mij-knop:hover{
     text-decoration: underline;
     transform: translateY(-5px);
+    background-color: white;
+    color: var(--secondary-color);
 }
 
 .intro-knoppen{

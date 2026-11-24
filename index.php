@@ -6,7 +6,23 @@
 include('header.php');
 
 ?>
-<section class="intro content container" >
+
+<section class="hero">
+    <a href= "#intro" class="scroll-arrow" aria-label="scroll naar introductie">&darr;</a>
+    <div class= "hero-content">
+        <h1>Roy Biesheuvel</h1>
+        <h2>Webdeveloper in opleiding</h2>
+        <p>Van nieuwsgierigheid naar code. Ik ontwikkel mijn vaardigheden en bouw aan mijn toekomst als developer.</p>
+    
+       <div class= "intro-knoppen">
+        <a href="Mijn.projecten.php" class="projecten-knop">Bekijk mijn projecten</a>
+
+        <a href="over.mij.php" class="over-mij-knop">lees meer over mij</a>
+        </div>
+    </div>
+</section>
+
+<section class="intro content container" id="intro">
     
     <div class="intro-tekst">
         <h1>Hoi, ik ben <span>Roy</span></h1>
@@ -19,11 +35,8 @@ include('header.php');
             Op mijn portfolio laat ik mijn projecten
             en mijn ontwikkeling zien.
         </p>
-        <div class= "intro-knoppen">
-        <a href="Mijn.projecten.php" class="projecten-knop">Bekijk mijn projecten</a>
-
-        <a href="over.mij.php" class="over-mij-knop">lees meer over mij</a>
-        </div>
+  
+    
     </div>
 
     <div class="intro-foto">
