@@ -524,17 +524,7 @@ width: 49%;
     margin: 0;
 }
 
-.project-skills{
-    display: flex;
-    gap: 10px;
-}
 
-.project-skills span{
-background-color: var(--secondary-color);
-border-radius: 12px;
-padding: 6px 14px;
-color:white;
-}
 
 
 .footer div{

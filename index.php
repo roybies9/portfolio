@@ -90,13 +90,14 @@ include('header.php');
 
             <div class="project-info">
                 <h3>Mijn portfolio website</h3>
+               <p>Het ontwikkelen van mijn vaardigheden als webdeveloper.</p>
                 <span class="project-status">In ontwikkeling</span>
-                <p>Het leren en onder de knie krijgen van de basis.</p>
-                <div class="project-skills">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>PHP</span>
-                </div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PHP</li>
+                    <li>Javascript</li>
+                </ul>
             </div>
         </div>
 
@@ -106,10 +107,13 @@ include('header.php');
         </div>
             <div class="project-info">
                 <h3>Basketbalstatistieken</h3>
-           
+                    <p>Een webapplicatie voor het analyseren van wedstrijden.</p>
         
             <span class="project-status-gepland">Op de planning</span>
-            <p>Een website voor het bijhouden van statistieken en terugkijken van wedstrijden.</p>
+            <ul>
+                <li>statistieken bijhouden</li>
+                <li>wedstrijden terugkijken</li>
+            </ul>
             
              </div>
         </div>
